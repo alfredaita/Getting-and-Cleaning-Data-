@@ -15,9 +15,10 @@ The script run_analysis.R reconstructs the data from the Samsung galaxy expirime
        * three columns are still to be set . [Subject_id, activity_id, activity] 
        
        ## prepare tidy data set.
-        * Mean and Standard Devitation(std) are extrapolated from our "Dataset" and overriding existing ["Dataset]. these               * are the attributtes required by our project.  
+        * Mean and Standard Devitation(std) are extrapolated from our "Dataset" and overriding existing ["Dataset].
+        * These are the attributtes required by our project.  
         * Names for our subjects, activity_id and activity are created and set and the three rows are now added to our table.
-        * tidydata now contains 89 columns 86 of which are a std or mean of features. They are part of the original download.
+        * tidydata now contains 89 columns 86 of which are a std or mean of features.
         * tidy data is temporarily reshaped and the average for each mean or std is calculated by activity for each test and               * train participant. we now have a table consisting of 180 observations and 89 attributes( 86 of which are                      * measured).
         * descripitive data is made by editing the mean or standard devitation column names see code book .
         * tidy data is now saved to local disk and also uploaded as "tidy_dataset.txt"  
