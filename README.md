@@ -5,9 +5,11 @@ The script run_analysis.R reconstructs the data from the Samsung galaxy expirime
        ## create master data file
        * load and combine X_test and X_train into one table [ a total of 561 attributes and 10,299 attributes ]
        * load, combine and add to the table; names for the attributes previously loaded. ["features.txt"]   
-       * load and combine activity and activity id. Maintain the original order of activities performed. [y_train.txt,                 * y_test.txt which contains activity_id and order of performance. The activity labels were joined in a seperate column.
-       * name the two columns "activity_id" and "activity"
-       * Subject_test and subject_train.txt loaded combined. [These are the subjects who were tested and trained].
+       * load and combine activity and activity id. Maintain the original order of activities performed.
+       * y_train.txt and y_test.txt contains activity_id and order of performance.
+       * The activity labels were " left inner joined " in a separate  column.
+       * name the two columns "activity_id" and "activity".
+       * Subject_test and subject_train.txt loaded combined.These are the subjects who were tested and trained.
        * name the subject column "subject_id"
        * the above procedures have created a master table consisting of 561 Columns and 10,299 rows.[ see script:"Dataset"]
        * three columns are still to be set . [Subject_id, activity_id, activity] 
