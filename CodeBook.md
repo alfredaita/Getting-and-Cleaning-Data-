@@ -46,7 +46,8 @@
       Note:
       The original files, comprissing Activity_ID, (y_test.txt and y_train.txt) were saved in a particular order, 
       the assumption was then made that all the original obseravtions were saved in that fashion. To preserve the order
-      the master file was rebuilt in a test and then train sequence. Also an left inner join command was used to this.
+      the master file was rebuilt in a test and then train sequence. Also an left inner join command was used aid in 
+      maintaing the order just described.
       
       END OF CODEBOOK
       
